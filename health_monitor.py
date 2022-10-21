@@ -22,7 +22,6 @@ def cpu_stats():
     print("Free CPU time, no activity:", cpu_idle_hours, "hours")
 
 def battery_health():
-
     battery = psutil.sensors_battery()
     pcent = battery.percent
     print("Battery:", pcent, "%")
