@@ -30,7 +30,6 @@ def battery_health():
     if not cargador:
         print("Please plug in power adapter")
 
-    
 
 df_check()
 cpu_stats()
