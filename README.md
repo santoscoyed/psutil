@@ -1,7 +1,7 @@
 psutil library for local system monitoring
 ===============
 
-Esta aplicación hace uso del SDK de la librería *psutil* de Python con el objetivo de monitorear la utilización de recursos del sistema local (CPU, almacenamiento, batería).
+Esta aplicación hace uso de la librería *psutil* de Python con el objetivo de monitorear la utilización de recursos del sistema local (CPU, almacenamiento, batería).
 
 # Documentación
 El uso de las diferentes funciones del módulo psutil se puede consultar [aquí](https://pypi.org/project/psutil/).
