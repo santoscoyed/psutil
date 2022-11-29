@@ -1,22 +1,22 @@
 psutil library for local system monitoring
 ===============
 
-Esta aplicación hace uso de la librería *psutil* de Python con el objetivo de monitorear la utilización de recursos del sistema local (CPU, almacenamiento, batería).
+This application makes use of the *psutil* Python library intended to monitor utilization of local system resources (CPU, storage, battery status).
 
-# Documentación
-El uso de las diferentes funciones del módulo psutil se puede consultar [aquí](https://pypi.org/project/psutil/).
+# Documentation
+All methods pertaining to the psutil module can be found [here](https://pypi.org/project/psutil/).
 
-Para este proyecto se utilizaron únicamente 3 funciones: 
-- disk_usage: obtención de uso del disco duro en relación a espacio utilizado/disponible
-- cpu_times: obtención de unidades de tiempo de ejecución de procesos por el CPU
-- sensors_battery: lectura del sensor de voltaje de la bateria integrada
+This project utilizes three psutil methods for showcasing local PC stats at the time the code is run: 
+- disk_usage: returns free space on hard drive disk in relation to occupied space.
+- cpu_times: returns time units of thread processing by CPU
+- sensors_battery: returns voltaje sensor reading of built-in battery.
 
 
 # Dependencias
-Al comienzo del código fuente, se debe importar la librería psutil, para ello, dentro de la carpeta del proyecto, se debe correr de antemano el siguiente comando:
+At the beginning of source code, psutil library must be imported, for this purpose, the following command must be run from the CLI **inside** the project's directory: 
 > pip3 install psutil
 
-Una vez instalado este módulo, el programa debe correr exitosamente.
+Once installed, the code should run successfully.
 
 
 
